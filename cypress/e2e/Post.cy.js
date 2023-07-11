@@ -1,7 +1,7 @@
 describe("Post Method", function(){
     it("Post", function(){
        cy.request('POST', 'https://tokoOnline/qty', {  
-            qty: 'morpheus'
+            qty: '25'
        })
     })
  }); 
