@@ -1,8 +1,7 @@
 describe("Post Method", function(){
     it("Post", function(){
-       cy.request('POST', 'https://reqres.in/api/user', {  
-            name: 'morpheus',
-            job: 'leader'
+       cy.request('POST', 'https://tokoOnline/qty', {  
+            qty: 'morpheus'
        })
     })
  }); 
