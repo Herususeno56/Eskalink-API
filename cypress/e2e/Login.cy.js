@@ -1,6 +1,6 @@
 describe('Testing API Endpoints Using Cypress', () => {
     beforeEach(() => {
-      cy.request('https://tokoOnline/qty')
+      cy.request('https://tokoOnline/login')
     });
     it('Login', () => {
       (response) => {
